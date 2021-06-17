@@ -2,5 +2,18 @@ module.exports = {
   siteMetadata: {
     title: "My Portfolio",
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-gatsby-cloud"],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        cssLoaderOptions: {
+          esModule: false,
+          modules: {
+            namedExport: false,
+          },
+        },
+      },
+    },
+    'gatsby-plugin-gatsby-cloud'
+  ],
 };
