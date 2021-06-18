@@ -1,0 +1,32 @@
+.banner {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
+  grid-template-columns: 1fr;
+  padding: 1rem 1rem 8rem;
+  background-color: var(--color-primary);
+  font-family: var(--font-banner);
+  color: var(--color-text);
+  z-index: 2;
+}
+
+.social {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  column-gap: 0.6rem;
+  margin: 0.4rem;
+}
+
+.text {
+  align-self: center;
+  justify-self: center;
+  display: grid;
+  justify-items: center;
+  row-gap: 1.2rem;
+  font-size: 2.25em;
+}
+
+.title {
+  font-size: 2.5rem;
+}
