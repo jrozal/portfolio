@@ -14,6 +14,7 @@ module.exports = {
         },
       },
     },
-    'gatsby-plugin-gatsby-cloud'
+    'gatsby-plugin-gatsby-cloud',
+    'gatsby-plugin-react-helmet'
   ],
 };
