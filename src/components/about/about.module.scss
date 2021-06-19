@@ -1,0 +1,21 @@
+.section {
+  display: grid;
+  justify-items: center;
+  row-gap: 3rem;
+  padding: 6rem;
+  background-color: var(--color-primary);
+
+  h2 {
+    font-family: var(--font-title);
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 2rem;
+    font-family: var(--font-title);
+  }
+
+  @media only screen and (min-width: 700px) {
+    padding: 10rem;
+  }
+}
