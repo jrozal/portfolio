@@ -1,5 +1,5 @@
 import React from 'react';
-import { GithubIcon, EmailIcon, LinkedInIcon } from '../images/icons';
+import { GithubIcon, EmailIcon, LinkedInIcon } from '../images/social-icons';
 
 export const socialData = [
   {
