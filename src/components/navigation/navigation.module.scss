@@ -1,0 +1,37 @@
+$nav-height: 8rem;
+
+.navigation {
+  height: $nav-height;
+  display: grid;
+  background-color: var(--color-accent);
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  align-content: center;
+  list-style: none;
+}
+
+.link {
+  button {
+    height: $nav-height;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 1.25rem;
+    color: var(--color-primary);
+    font-size: var(--font-subtitle-size);
+    font-family: var(--font-subtitle);
+    font-weight: var(--font-subtitle-weight);
+  }
+
+  &:not(:last-child):after {
+    content: '|';
+    color: var(--color-primary);
+    font-size: var(--font-subtitle-size);
+    font-family: var(--font-subtitle);
+    font-weight: var(--font-subtitle-weight);
+  }
+}
