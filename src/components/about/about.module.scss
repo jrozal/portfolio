@@ -3,16 +3,17 @@
   justify-items: center;
   row-gap: 3rem;
   padding: 6rem;
-  background-color: var(--color-primary);
 
   h2 {
-    font-family: var(--font-title);
+    font-family: var(--font-primary);
     font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
   }
 
   p {
     font-size: 2rem;
-    font-family: var(--font-title);
+    font-family: var(--font-secondary);
   }
 
   @media only screen and (min-width: 700px) {

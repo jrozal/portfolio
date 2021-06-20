@@ -22,16 +22,16 @@ $nav-height: 8rem;
     cursor: pointer;
     padding: 0 1.25rem;
     color: var(--color-primary);
-    font-size: var(--font-subtitle-size);
-    font-family: var(--font-subtitle);
-    font-weight: var(--font-subtitle-weight);
+    font-size: 2.5rem;
+    font-family: var(--font-secondary);
+    font-weight: var(--font-secondary-weight);
   }
 
   &:not(:last-child):after {
     content: '|';
     color: var(--color-primary);
-    font-size: var(--font-subtitle-size);
-    font-family: var(--font-subtitle);
-    font-weight: var(--font-subtitle-weight);
+    font-size: 2.5rem;
+    font-family: var(--font-secondary);
+    font-weight: var(--font-secondary-weight);
   }
 }
