@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './about.module.scss';
+import './about.module.scss';
 
 const About = () => (
-  <section className={styles.section}>
+  <section className="component">
     <div>
       <h2>Hi, I'm Justin</h2>
       <p>
