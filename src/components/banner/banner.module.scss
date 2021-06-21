@@ -16,6 +16,10 @@
   grid-template-columns: repeat(3, min-content);
   column-gap: 0.6rem;
   margin: 0.4rem;
+
+  @media only screen and (max-width: 770px) {
+    margin-left: 1.6rem;
+ }
 }
 
 .text {
