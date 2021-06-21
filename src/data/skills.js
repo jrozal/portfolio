@@ -1,11 +1,11 @@
 export const skillsData = [
   {
     category: 'Front-End',
-    items: ['JavaScript', 'React', 'HTML', 'CSS', 'Styled-Components', 'jQuery', 'REST']
+    items: ['JavaScript', 'React', 'Redux', 'HTML', 'CSS', 'Styled-Components', 'jQuery', 'REST']
   },
   {
     category: 'Back-End',
-    items: ['Node', 'Express', 'MySQL', 'PostgreSQL', 'MongoDB', 'Sequelize', 'Redis', 'Nginx', 'AWS EC2', 'AWS S3']
+    items: ['Node', 'Express', 'MySQL', 'Postgres', 'MongoDB', 'Sequelize', 'Redis', 'Nginx', 'AWS EC2', 'AWS S3']
   },
   {
     category: 'Development Tools',
