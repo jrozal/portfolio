@@ -1,5 +1,5 @@
 import React from 'react';
-import { Javascript, ReactIcon, ReduxIcon, Html, Css, Jquery, Rest, Node, Express, Mysql, Postgres, Mongodb, Sequelize, Redis, Nginx, Ec2, S3, Git, Bash, Webpack, Npm, Babel, Postman, Agile, Circleci, Mocha, Chai, Jest, Artillery, Loaderio, NewRelic, CPlusPlus, Python } from '../images/svg/logos';
+import { Javascript, ReactIcon, ReduxIcon, Html, Css, Jquery, Rest, Node, Express, Mysql, Postgres, Mongodb, Sequelize, Redis, Nginx, Ec2, S3, Git, Bash, Webpack, Npm, Babel, Postman, Agile, Circleci, Mocha, Chai, Jest, Artillery, Loaderio, NewRelic, CPlusPlus, Python, Gatsby, Sass, MaterialUI } from '../images/svg/logos';
 
 export const technologies = {
   'JavaScript' : <Javascript/>,
@@ -36,5 +36,8 @@ export const technologies = {
   'Loader.io': <Loaderio/>,
   'New Relic': <NewRelic/>,
   'C++': <CPlusPlus/>,
-  'Python': <Python/>
+  'Python': <Python/>,
+  'Gatsby': <Gatsby/>,
+  'Sass': <Sass/>,
+  'MaterialUI': <MaterialUI/>
 };
