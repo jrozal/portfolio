@@ -1,5 +1,5 @@
 import React from 'react';
-import { Javascript, ReactIcon, ReduxIcon, Html, Css, Jquery, Rest, Node, Express, Mysql, Postgres, Mongodb, Sequelize, Redis, Nginx, Ec2, S3, Git, Bash, Webpack, Npm, Babel, Postman, Agile, Tdd, Circleci, Mocha, Chai, Jest, Artillery, Loaderio, NewRelic, CPlusPlus, Python } from '../images/svg/logos';
+import { Javascript, ReactIcon, ReduxIcon, Html, Css, Jquery, Rest, Node, Express, Mysql, Postgres, Mongodb, Sequelize, Redis, Nginx, Ec2, S3, Git, Bash, Webpack, Npm, Babel, Postman, Agile, Circleci, Mocha, Chai, Jest, Artillery, Loaderio, NewRelic, CPlusPlus, Python } from '../images/svg/logos';
 
 export const technologies = {
   'JavaScript' : <Javascript/>,
