@@ -3,7 +3,9 @@ import styles from './index.module.scss';
 import { Helmet } from 'react-helmet';
 import About from '../components/about';
 import Banner from '../components/banner';
+import Footer from '../components/footer';
 import Navigation from '../components/navigation';
+import Projects from '../components/projects';
 import Skills from '../components/skills';
 
 const IndexPage = () => {
@@ -18,6 +20,8 @@ const IndexPage = () => {
         <Navigation/>
         <About/>
         <Skills/>
+        <Projects/>
+        <Footer/>
       </main>
     </div>
   );
