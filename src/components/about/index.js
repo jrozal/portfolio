@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './about.module.scss';
 
 const About = () => (
-  <section className="component">
+  <section className="component" id="about">
     <div className={styles.aboutWrapper}>
       <h2>Hi, I'm Justin</h2>
       <p>

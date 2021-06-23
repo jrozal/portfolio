@@ -15,7 +15,7 @@ const SkillList = ({ skillItems }) => (
 
 const Skills = () => {
   return (
-    <section className={`component ${styles.skillWrapper}`}>
+    <section className={`component ${styles.skillWrapper}`} id="skills">
       <h2>Skills</h2>
       <ul className={styles.list}>
         {skillsData.map((skill, i) => (
