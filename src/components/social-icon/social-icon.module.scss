@@ -8,7 +8,7 @@
      width: 50px;
      height: 50px;
      cursor: pointer;
-     border: 2px solid var(--color-grey);
+     border: 2px solid var(--color-white);
      transition: all 0.3s;
      border-radius: 50%;
 
@@ -28,7 +28,7 @@
   svg {
      width: 28px;
      height: 28px;
-     fill: var(--color-grey);
+     fill: var(--color-white);
      transform: scale(1.1);
      transition: all 0.3s;
   }
@@ -56,31 +56,31 @@
 
   &.linkedin:hover {
      a {
-        border-color: var(--color-linkedin);
+        border-color: var(--color-accent);
      }
 
      a::after {
-        background-color: var(--color-linkedin);
+        background-color: var(--color-accent);
      }
   }
 
   &.email:hover {
      a {
-        border-color: var(--color-email);
+        border-color: var(--color-accent);
      }
 
      a::after {
-        background-color: var(--color-email);
+        background-color: var(--color-accent);
      }
   }
 
   &.github:hover {
      a {
-        border-color: var(--color-github);
+        border-color: var(--color-accent);
      }
 
      a::after {
-        background-color: var(--color-github);
+        background-color: var(--color-accent);
      }
   }
 }
