@@ -1,4 +1,5 @@
 import React from 'react';
+import { isMobile } from 'react-device-detect';
 import SocialIcon from '../social-icon';
 import { socialData } from '../../data/social';
 import styles from './banner.module.scss';
@@ -6,7 +7,10 @@ import styles from './banner.module.scss';
 const Banner = () => {
   return (
     <header className={styles.banner}>
-      <ul className={styles.social}>
+      <ul className={`
+        ${styles.social}
+        ${isMobile ? styles.socialMobile : null}
+      `}>
         {socialData.map((social, i) => (
           <SocialIcon
             key={i}
