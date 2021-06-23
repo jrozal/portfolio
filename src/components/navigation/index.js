@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './navigation.module.scss';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const components = [
   'about',
@@ -14,7 +15,9 @@ const Navigation = () => {
       <ul className={styles.links}>
         {components.map((component, i) => (
           <li className={styles.link} key={i}>
-            <button>{component}</button>
+            <button onClick={() => scrollTo(`#${component}`)}>
+              {component}
+            </button>
           </li>
         ))}
       </ul>
