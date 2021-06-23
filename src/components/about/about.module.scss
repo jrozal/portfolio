@@ -1,5 +1,16 @@
-p {
-  font-size: 2rem;
-  font-family: var(--font-secondary);
-  font-weight: var(--font-secondary-weight);
+.about-wrapper {
+  display: grid;
+  row-gap: 1rem;
+  text-align: center;
+
+  @media only screen and (min-width: 700px) {
+    max-width: 65%;
+  }
+
+  p {
+    font-size: var(--font-lg);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-secondary-weight);
+    line-height: 3rem;
+  }
 }
