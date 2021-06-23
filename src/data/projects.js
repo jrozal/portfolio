@@ -2,7 +2,7 @@ import React from 'react';
 import blitvazon from '../images/projects/blitvazon.jpg';
 import cloudbnb from '../images/projects/cloudbnb.jpg';
 import investfolio from '../images/projects/investfolio.jpg';
-import { GithubIcon, EmailIcon, LinkedInIcon } from '../images/svg/social-icons';
+import { GithubIcon } from '../images/svg/social-icons';
 
 export const projectsData = [
   {
