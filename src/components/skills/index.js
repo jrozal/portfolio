@@ -1,16 +1,13 @@
 import React from 'react';
 import styles from './skills.module.scss';
 import { skillsData } from '../../data/skills';
-import { technologies } from '../../data/technologies';
+import SkillItem from './skill-item';
 
-const SkillItems = ({ skillItems }) => (
+const SkillList = ({ skillItems }) => (
   <div className={styles.skillSet}>
     <ul className={styles.skillList}>
       {skillItems.map((item, i) => (
-        <li key={i} className={styles.item}>
-          <i className={styles.logo}>{technologies[`${item}`]}</i>
-          <span className={styles.skill}>{item}</span>
-        </li>
+        <SkillItem key={i} skill={item}/>
       ))}
     </ul>
   </div>
@@ -18,13 +15,13 @@ const SkillItems = ({ skillItems }) => (
 
 const Skills = () => {
   return (
-    <section className="component">
+    <section className={`component ${styles.skillWrapper}`}>
       <h2>Skills</h2>
       <ul className={styles.list}>
         {skillsData.map((skill, i) => (
           <li key={i}>
             <span className={styles.category}>{skill.category}</span>
-            <SkillItems skillItems={skill.items}/>
+            <SkillList skillItems={skill.items}/>
           </li>
         ))}
       </ul>
