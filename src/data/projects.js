@@ -20,7 +20,7 @@ export const projectsData = [
   },
   {
     title: 'Cloudbnb',
-    description: 'A scaled photos microservice for an existing Airbnb-like lodging and hospitality application',
+    description: 'A scaled photos microservice for an existing Airbnb-like lodging and hospitality application.',
     image: cloudbnb,
     stack: ['Postgres', 'Sequelize', 'Express', 'React', 'Node'],
     links: [
@@ -33,7 +33,7 @@ export const projectsData = [
   },
   {
     title: 'Investfolio',
-    description: 'An investment portfolio dashboard and stock/crypto tracking application',
+    description: 'An investment portfolio dashboard and stock/crypto tracking application.',
     image: investfolio,
     stack: ['MySQL', 'Sequelize', 'Express', 'React', 'MaterialUI', 'Node'],
     links: [
