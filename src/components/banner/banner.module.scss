@@ -1,5 +1,5 @@
 .banner {
-  height: 100vh;
+  height: calc(100vh - 8rem);
   display: grid;
   grid-template-rows: max-content 1fr max-content;
   grid-template-columns: 1fr;
@@ -7,7 +7,6 @@
   background-color: var(--color-primary);
   font-family: var(--font-primary);
   color: var(--color-text);
-  z-index: 2;
 }
 
 .social {
@@ -16,12 +15,6 @@
   grid-template-columns: repeat(3, min-content);
   column-gap: 0.6rem;
   margin: 0.4rem;
-}
-
-.social-mobile {
-  @media only screen and (max-width: 770px) {
-    margin-left: 1.6rem;
- }
 }
 
 .text {

@@ -7,10 +7,7 @@ import styles from './banner.module.scss';
 const Banner = () => {
   return (
     <header className={styles.banner}>
-      <ul className={`
-        ${styles.social}
-        ${isMobile ? styles.socialMobile : null}
-      `}>
+      <ul className={styles.social}>
         {socialData.map((social, i) => (
           <SocialIcon
             key={i}
