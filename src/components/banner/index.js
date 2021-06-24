@@ -22,7 +22,7 @@ const Banner = () => {
           <span>Justin Rozal</span>
         </h1>
         <h2 className={styles.title}>
-          Full-Stack Software Engineer
+          Full-Stack Developer
         </h2>
       </div>
     </header>
