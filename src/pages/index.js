@@ -1,4 +1,5 @@
 import React from 'react';
+import { siteData } from '../data/site';
 import { Helmet } from 'react-helmet';
 import About from '../components/about';
 import Banner from '../components/banner';
@@ -10,9 +11,11 @@ import Skills from '../components/skills';
 const IndexPage = () => {
   return (
     <div>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Justin Rozal</title>
+      <Helmet
+        title={siteData.title}
+        meta={siteData.meta}
+        link={siteData.link}
+      >
       </Helmet>
       <main>
         <Banner/>
