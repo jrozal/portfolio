@@ -3,11 +3,8 @@
   row-gap: 1rem;
   text-align: center;
 
-  @media only screen and (min-width: 700px) {
-    max-width: 65%;
-  }
-
   p {
+    max-width: 70rem;
     font-size: var(--font-lg);
     font-family: var(--font-secondary);
     font-weight: var(--font-secondary-weight);
