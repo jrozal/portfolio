@@ -1,5 +1,4 @@
 import React from 'react';
-import { isMobile } from 'react-device-detect';
 import SocialIcon from '../social-icon';
 import { socialData } from '../../data/social';
 import styles from './banner.module.scss';
