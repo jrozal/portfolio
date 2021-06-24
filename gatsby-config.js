@@ -1,6 +1,9 @@
+require('dotenv').config();
+
 module.exports = {
   siteMetadata: {
-    title: "My Portfolio",
+    title: "Justin Rozal",
+    siteUrl: 'https://justinrozal.dev'
   },
   plugins: [
     {
@@ -14,7 +17,13 @@ module.exports = {
         },
       },
     },
-    'gatsby-plugin-gatsby-cloud',
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: process.env.S3_BUCKET_NAME,
+        acl: null
+      },
+    },
     'gatsby-plugin-react-helmet'
   ],
 };
