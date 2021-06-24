@@ -2,6 +2,7 @@ import React from 'react';
 import blitvazon from '../images/projects/blitvazon.jpg';
 import cloudbnb from '../images/projects/cloudbnb.jpg';
 import investfolio from '../images/projects/investfolio.jpg';
+import portfolio from '../images/projects/portfolio.jpg';
 import { GithubIcon } from '../images/svg/social-icons';
 
 export const projectsData = [
@@ -47,7 +48,7 @@ export const projectsData = [
   {
     title: 'Portfolio',
     description: 'My personal portfolio used to showcase my experience and achievements.',
-    image: null,
+    image: portfolio,
     stack: ['Gatsby', 'Sass', 'React', 'HTML'],
     links: [
       {
