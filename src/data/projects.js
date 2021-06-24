@@ -2,6 +2,7 @@ import React from 'react';
 import blitvazon from '../images/projects/blitvazon.jpg';
 import cloudbnb from '../images/projects/cloudbnb.jpg';
 import investfolio from '../images/projects/investfolio.jpg';
+import stockbot from '../images/projects/stockbot.jpg';
 import portfolio from '../images/projects/portfolio.jpg';
 import { GithubIcon } from '../images/svg/social-icons';
 
@@ -41,6 +42,19 @@ export const projectsData = [
       {
         text: 'View Source Code',
         link: 'https://github.com/jrozal/investfolio',
+        icon: <GithubIcon/>
+      }
+    ]
+  },
+  {
+    title: 'Stock Bot',
+    description: 'A simple stock market trading bot written in node.js that executes trades based on the 20/50 simple moving average crossover strategy.',
+    image: stockbot,
+    stack: ['Node'],
+    links: [
+      {
+        text: 'View Source Code',
+        link: 'https://github.com/jrozal/stockbot',
         icon: <GithubIcon/>
       }
     ]
