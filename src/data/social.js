@@ -15,7 +15,7 @@ export const socialData = [
   {
     icon: <EmailIcon/>,
     values: {
-      href: "mailto:test@test.com",
+      href: "mailto:justin@justinrozal.dev",
       ariaLabel: "Send mail to test@test.com"
     },
     className: "email"
