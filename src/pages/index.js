@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './index.module.scss';
 import { Helmet } from 'react-helmet';
 import About from '../components/about';
 import Banner from '../components/banner';
@@ -15,7 +14,7 @@ const IndexPage = () => {
         <meta charSet="utf-8" />
         <title>Justin Rozal</title>
       </Helmet>
-      <main className={styles.main}>
+      <main>
         <Banner/>
         <Navigation/>
         <About/>
