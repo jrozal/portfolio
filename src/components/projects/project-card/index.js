@@ -10,8 +10,8 @@ const ProjectCard = ({ project }) => {
     <article className={styles.cardWrapper}>
       <button
         className={`${styles.card} ${flip ? styles.cardFlip : null}`}
-        onMouseEnter={() => setFlip(true)}
-        onMouseLeave={() => setFlip(false)}
+        onMouseEnter={!isMobile ? () => setFlip(true) : null}
+        onMouseLeave={!isMobile ? () => setFlip(false) : null}
         onClick={() => setFlip(!flip)}
       >
         <div className={`${styles.cardSide} ${styles.cardFront}`}>
