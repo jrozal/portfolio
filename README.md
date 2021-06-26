@@ -1,5 +1,7 @@
 <p align="center">
-  <img alt="Portfolio" src="src/images/icon.png" width="60" />
+  <a href="https://www.justinrozal.dev">
+    <img alt="Portfolio" src="src/images/icon.png" width="60" />
+  </a>
 </p>
 <h1 align="center">
   Portfolio
