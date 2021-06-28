@@ -8,8 +8,8 @@ export const siteData = {
   title: 'Justin Rozal',
   meta: [
     {
-      name: 'Justin Rozal Porfolio',
-      content: 'Justin Rozal - Full-Stack Developer'
+      name: 'robots',
+      content: 'noindex, nofollow'
     }
   ]
 };
